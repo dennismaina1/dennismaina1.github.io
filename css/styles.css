@@ -48,6 +48,7 @@ body{
     position:absolute;
     top:15px;
     width:150px;
+    border-radius:50%;
 }
 
 .top-section::after{
@@ -140,6 +141,7 @@ body{
     margin-bottom: 20px;
     color: #01a755;
 }
+
 
 
 
