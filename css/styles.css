@@ -17,6 +17,7 @@ body{
 .countdown_title{
     font-size:clamp(16px,3.5vw,22px);
     font-weight:600;
+    font-family:Lato;
     margin-top:10px;
     margin-bottom:5px;
     text-align:center;
@@ -77,11 +78,13 @@ body{
 }
 
 .company-name{
+    font-family:Lato;
     font-size:clamp(30px,3vw,40px);
     font-weight:bold;
 }
 
 .event-title{
+    font-family:Lustria;
     font-size:clamp(35px,5vw,45px);
     margin-top:8px;
 }
@@ -89,7 +92,7 @@ body{
 .description{
     margin-top:12px;
     max-width:700px;
-    font-size:clamp(14px,3vw,18px);
+    font-size:clamp(20px,3vw,24px);
 }
 
 /* ================= FLOATING VIDEO ================= */
@@ -227,6 +230,7 @@ body{
     0%{ transform:rotate(0deg); }
     100%{ transform:rotate(360deg); }
 }
+
 
 
 
