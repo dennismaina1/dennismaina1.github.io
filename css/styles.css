@@ -146,7 +146,7 @@ body{
     margin-bottom: 20px;
     color: #01a755;
 }
-.countdown-title{
+.countdown_title{
     font-size:clamp(16px,3.5vw,22px);
     font-weight:600;
     margin-top:10px;
@@ -154,4 +154,5 @@ body{
     text-align:center;
     color:#01a755;
 }
+
 
