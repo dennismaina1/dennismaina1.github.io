@@ -1,21 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    font-family: Lustria, Lato, sans-serif;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
 #loader {
     position: fixed;
     inset: 0;
@@ -41,6 +23,8 @@ body {
     100% { transform: rotate(360deg); }
 }
 
+/* ================= TOP SECTION ================= */
+
 .top-section {
     position: relative;
     height: 42vh;
@@ -51,13 +35,13 @@ body {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    padding: 0 18px 10px;
+    padding: 20px 18px 10px;
     overflow: visible;
 }
 
 .logo {
     width: 130px;
-    margin: 10px 0 10px;
+    margin: 0 0 10px;
     border-radius: 50px;
 }
 
@@ -85,19 +69,7 @@ body {
     margin-top: 2px;
 }
 
-.description {
-    margin-top: 6px;
-    max-width: 680px;
-    font-size: clamp(15px, 2vw, 21px);
-}
-
-.video-wrapper {
-    position: relative;
-    width: min(88vw, 880px);
-    margin: 0 auto;
-    transform: translateY(-34px);
-    z-index: 5;
-}
+/* ================= VIDEO ================= */
 
 .video-wrapper iframe {
     width: 100%;
@@ -107,6 +79,8 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
     background: white;
 }
+
+/* ================= BOTTOM SECTION ================= */
 
 .bottom-section {
     flex: 1;
@@ -139,6 +113,8 @@ body {
     z-index: 2;
 }
 
+/* ================= COUNTDOWN ================= */
+
 .countdown_title {
     font-size: clamp(24px, 2.8vw, 34px);
     font-weight: 700;
@@ -152,6 +128,8 @@ body {
     color: #01a755;
 }
 
+/* ================= ARROW ================= */
+
 .arrow {
     font-size: 34px;
     color: #e63946;
@@ -163,6 +141,8 @@ body {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(8px); }
 }
+
+/* ================= REGISTER ================= */
 
 .scan-text {
     font-weight: 700;
@@ -180,9 +160,11 @@ body {
     font-weight: 700;
 }
 
+/* ================= CONTACT ================= */
+
 .contact {
     margin-top: 6px;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 1.35;
 }
 
@@ -190,4 +172,3 @@ body {
     color: #01a755;
     text-decoration: none;
 }
-
